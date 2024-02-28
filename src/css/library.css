@@ -1,0 +1,11 @@
+.library {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+    grid-template-rows: 35vh 35vh;
+    gap: 2vw 2vh;
+    padding-left: 2%;
+    padding-top: 2%;
+    background-color: #f5f5f5;
+}

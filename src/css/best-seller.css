@@ -1,0 +1,88 @@
+.best-section {
+    width: 100%;
+    height: 130vh;
+}
+
+.best-section h3 {
+    margin-left: 36%;
+}
+
+.best-section img {
+    width: 22.5vw;
+    height: 75vh;
+    margin-left: 10%;
+    margin-top: 2%;
+    float: left;
+}
+
+.b-s-description {
+    width: 30vw;
+    float: right;
+    margin-right: 10%;
+}
+
+.b-s-description h4 {
+    margin-left: 35%;
+    background: #CF2200;
+    background: linear-gradient(to right, #CF2200 21%, #FF4D00 43%, #CF8401 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.b-s-description p {
+    text-align: center;
+} 
+
+.b-s-description p span {
+    margin-left: 55%;
+}
+
+.price {
+    width: 40vw;
+    height: fit-content;
+    float: right;
+}
+
+.price-p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 3vw;
+    float: left
+}
+
+.wishlist {
+    margin-top: 4.5%;
+}
+
+.heart {
+    margin-right: 1%;
+}
+
+.button-template {
+    width: 30vw;
+    height: 10vh;
+    font-size: 2vw;
+    margin-left: 5%;
+}
+
+.buyButton {
+    background-color: rgb(36, 184, 130);
+    border: 0;
+    color: white;
+}
+
+.cart {
+    margin-right: 45%;
+    margin-left: -1%;
+}
+
+.preorderButton {
+    margin-top: 1%;
+    background: none;
+    border: 4px solid #006ca1;
+}
+
+.shop {
+    margin-right: 30%;
+}
+

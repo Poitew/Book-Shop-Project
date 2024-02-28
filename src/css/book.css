@@ -1,0 +1,19 @@
+.book {
+    width: 15vw;
+    height: 20vh;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.book img {
+    width: 7vw;
+    height: 22vh;
+}
+
+.book span {
+    font-size: 1vw;
+}
+
+.book:hover {
+    transform: scale(1.1);
+}

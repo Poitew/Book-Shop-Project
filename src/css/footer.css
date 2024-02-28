@@ -1,0 +1,62 @@
+footer {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    margin-top: 10%;
+    color: white;
+    padding-top: 4%;
+}
+
+.book-footer {
+    width: 20vw;
+    margin-left: 7%;
+    float: left;
+}
+
+.book-footer p {
+    font-weight: 900;
+    letter-spacing: 0.2vw;
+}
+
+footer li {
+    margin-bottom: 1%;
+}
+
+.contact-footer {
+    width: 20vw;
+    float: left;
+    margin-left: 5%;
+}
+
+.contact-form {
+    width: 25vw;
+    float: left;
+    margin-left: 10%;
+}
+
+form {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.input-one {
+    width: 15vw;
+}
+
+.input-two {
+    width: 20vw;
+    height: 10vw;
+}
+
+.separator {
+    width: 50%;
+    height: 20vh;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.separator hr {
+    width: 50%;
+    position: absolute;
+    z-index: 10;
+}
