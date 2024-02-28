@@ -11,8 +11,8 @@ function HeaderComp(){
         <header>
 
             <div className="nav-bar">
-                <div className="Site-name-header">
-                  <p>Book&co</p>
+                <div className="logo">
+                  <img src="src/assets/images/book&co.svg" alt="" />
                 </div>
                 <div className="search-background">
                     <input type="text" placeholder='Cerca un libro..' />

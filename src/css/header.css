@@ -21,9 +21,10 @@ nav div:hover {
     color: rgb(255, 98, 0);
 }
 
-.Site-name-header {
-    margin-left: 1.5%;
-    margin-top: 2%;
+.logo img{
+    width: 7vw;
+    margin-top: -15%;
+    margin-right: 15%;
 }
 
 .nav-bar {
