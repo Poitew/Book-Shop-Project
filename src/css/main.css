@@ -25,6 +25,11 @@ h4 {
     font-size: calc(0.3rem + 1.4vw);
 }
 
+h5 {
+    margin: 0;
+    font-size: calc(0.3rem + 1.2vw);
+}
+
 p {
     margin: 0;
     font-size: calc(0.1rem + 1.2vw);

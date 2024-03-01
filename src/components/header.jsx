@@ -1,31 +1,39 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '/src/css/header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faHeart } from '@fortawesome/free-regular-svg-icons'
 
 function HeaderComp(){
+
+    function search(){
+        alert("We are having trouble with our database...");
+    }
+
     return(
         <header>
-
-            <div className="nav-bar">
-                <div className="logo">
-                  <img src="src/assets/images/book&co.svg" alt="" />
-                </div>
-                <div className="search-background">
-                    <input type="text" placeholder='Cerca un libro..' />
-                    <button><FontAwesomeIcon icon={faMagnifyingGlass}/></button>
-                </div>
+            <div className="nav-bar"> 
+                <a href=""><p className='current-page' >SHOP</p></a>
+                <a href=""><p className='other-page' >SUPPORT</p></a>
                 <div className="user-icon">
                     <FontAwesomeIcon icon={faUser}  className='icons-header' />
                     <FontAwesomeIcon icon={faHeart} className='icons-header' />
-                    <FontAwesomeIcon icon={faCartShopping} className='icons-header' />
+                    <FontAwesomeIcon icon={faLocationDot} className='icons-header' />
                 </div>
             </div>
 
             <nav>
+                <div className="logo">
+                  <img src="src/assets/images/book&co.svg" alt="" />
+                </div>
+
+                <div className="search-background">
+                    <input type="text" placeholder='Cerca un libro..' />
+                    <button onClick={search} ><FontAwesomeIcon icon={faMagnifyingGlass} className='glass-icon' /></button>
+                </div>
+
                 <div className="Home-header">
                        <a href='' ><p>Home&About</p></a>
                 </div>
@@ -42,7 +50,6 @@ function HeaderComp(){
                        <a href=''><p>Contact</p></a>
                 </div>
             </nav>
-
         </header>
     );
 }

@@ -13,7 +13,7 @@ function Presentation(){
             <div className="about">
                 <h2>Who are we?</h2>
                 <p>
-                    Book&co is a company that deals with the sale of books and comics of any genre on a global level,
+                    Book&co is a company that deals with the sales of books and comics of any genre on a global level,
                     here at Book&co the main thing that distinguishes us is the care of customer satisfaction
                 </p>
                 <div className="buy">
